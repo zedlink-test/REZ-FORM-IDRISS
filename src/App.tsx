@@ -74,7 +74,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formspreeEndpoint = "https://formspree.io/f/xjkvpqrb";
+    const formspreeEndpoint = "https://formspree.io/f/xvgwgzzk";
 
     try {
       const response = await fetch(formspreeEndpoint, {
