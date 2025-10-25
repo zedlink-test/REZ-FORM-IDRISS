@@ -1,10 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/', // remove '/REZ-FORM-IDRISS/', just use '/'
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-});
+})
+
